@@ -1,0 +1,15 @@
+-- data transfer flow
+
+-- function Data:httpSendRegisterLog(url,param)
+--   local i = 0
+-- 	local header_send = {typeget = "android"}
+-- 	local body_send = {}
+--   local site = string.format("http://172.21.1.111:8080/yh/momo/%s?Momo=%s&momoPwd=%s&qq=%s&qqPwd=%s&status=1&simCard=48958696&ip=192.168.1.1&location=hangzhou",url,param.momoId,param.momoPwd,param.qqAccount,param.qqPwd)
+--   repeat
+--     local status_resp,header_resp,body_resp = ts.httpPost(site,header_send, body_send)
+--     i = i + 1
+--   until (status_resp == 200 or i >= 5)
+--   if i >= 5 then
+--     dialog("failed 2 post data to the server!",30)
+--   end
+-- end
